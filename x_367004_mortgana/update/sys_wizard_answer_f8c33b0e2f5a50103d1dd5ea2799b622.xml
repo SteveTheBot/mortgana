@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Mortgana Asset</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Mortgana Asset</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Asset" name="Asset">a28d237047622100158b949b6c9a710d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-31 02:23:45</sys_created_on>
+        <sys_id>f8c33b0e2f5a50103d1dd5ea2799b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mortgana Asset</sys_name>
+        <sys_package display_value="Mortgana" source="x_367004_mortgana">8370df462f1a50103d1dd5ea2799b6a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mortgana">8370df462f1a50103d1dd5ea2799b6a7</sys_scope>
+        <sys_update_name>sys_wizard_answer_f8c33b0e2f5a50103d1dd5ea2799b622</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-31 02:23:45</sys_updated_on>
+        <table/>
+        <target_url>x_367004_mortgana_mortgana_asset.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

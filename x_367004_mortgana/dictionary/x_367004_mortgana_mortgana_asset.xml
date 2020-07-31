@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="alm_asset" label="Mortgana Asset" max_length="40" name="x_367004_mortgana_mortgana_asset" type="collection"/>
+</database>
