@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="cmdb_ci" label="Residence" max_length="40" name="x_367004_mortgana_residence" type="collection">
+    <element extends="cmdb_ci" label="Residence" max_length="40" name="x_367004_mortgana_residence" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Bed(s)" max_length="40" name="u_beds" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Dwelling Type" mandatory="true" max_length="40" name="u_dwelling_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Single Family" sequence="0" value="single family"/>
+                <element inactive_on_update="false" label="Multi-Family" sequence="1" value="multi-family"/>
+                <element inactive_on_update="false" label="Duplex" sequence="2" value="duplex"/>
+                <element inactive_on_update="false" label="Apartment" sequence="3" value="apartment"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" mandatory="true" max_length="20" name="u_price" type="price"/>
+        <element attributes="edge_encryption_enabled=true" label="State" mandatory="true" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street" mandatory="true" max_length="150" name="u_street" type="string"/>
+        <element label="Zip Code" mandatory="true" max_length="40" name="u_zip_code" type="integer"/>
     </element>
 </database>
